@@ -4,40 +4,40 @@
 @import url("null.css");
 
 /* blocks */
-@import url("blocks/_header.css");
-@import url("blocks/_welcome.css");
-@import url("blocks/_testimonial.css");
-@import url("blocks/_models.css");
-@import url("blocks/_products.css");
-@import url("blocks/_offer.css");
-@import url("blocks/_reviews.css");
-@import url("blocks/_populars.css");
-@import url("blocks/_footer.css");
+@import url("blocks/header.css");
+@import url("blocks/welcome.css");
+@import url("blocks/testimonial.css");
+@import url("blocks/models.css");
+@import url("blocks/products.css");
+@import url("blocks/offer.css");
+@import url("blocks/reviews.css");
+@import url("blocks/populars.css");
+@import url("blocks/footer.css");
 
 
 /* about */
-@import url("blocks/_about.css");
+@import url("blocks/about.css");
 
 
 /* contacts */
-@import url("blocks/_contacts.css");
+@import url("blocks/contacts.css");
 
 
 /* cart */
-@import url("blocks/_cart.css");
+@import url("blocks/cart.css");
 
 
 /* search */
-@import url("blocks/_search.css");
+@import url("blocks/search.css");
 
 
 /* product-card */
-@import url("blocks/_product-card.css");
+@import url("blocks/product-card.css");
 
 
 /* my-account */
-@import url("blocks/_my-account.css");
+@import url("blocks/my-account.css");
 
 
 /* media */
-@import url("blocks/_media.css");
+@import url("blocks/media.css");
