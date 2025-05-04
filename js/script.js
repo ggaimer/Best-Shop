@@ -8,7 +8,7 @@ searchButton.addEventListener("click", () => {
     body.classList.add('scroll--none')
 })
 
-searchBlock.addEventListener("click", () => {
+searchBlock.addEventListener("click", (e) => {
     searchBlock.classList.remove('search-block--active')
     body.classList.remove('scroll--none')
 
