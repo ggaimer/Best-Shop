@@ -47,10 +47,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const passwordInput = document.querySelector('#password')
     const toggleIconOff = document.getElementById("togglePassword")
 
-    toggleIcon.addEventListener('click', function () {
-        const isPassword = passwordInput.type === 'password'
-        passwordInput.type = isPassword ? 'text' : 'password'
-
-        toggleIcon.src = isPassword ? "../images/icons/hide-off.svg" : "images/icons/hide.svg"
-    })
+    if (toggleIcon && passwordInput) {
+        toggleIcon.addEventListener('click', function () {
+            const isPassword = passwordInput.type === 'password'
+            passwordInput.type = isPassword ? 'text' : 'password'
+            toggleIcon.src = isPassword ? "../images/icons/hide-off.svg" : "images/icons/hide.svg"
+        })
+    }
 });
+
