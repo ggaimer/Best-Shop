@@ -37,3 +37,7 @@
 
 /* my-account */
 @import url("blocks/_my-account.css");
+
+
+/* media */
+@import url("blocks/_media.css");
