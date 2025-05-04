@@ -1,0 +1,106 @@
+.welcome--background__my-account {
+	padding: 82px 0 86px;
+	background: url('../../images/background/my-account-bg.jpg') no-repeat
+		center/cover;
+	min-height: 230px;
+}
+
+.welcome-content__title-my-account {
+	color: #fff;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	width: 100%;
+}
+
+.my-account__form-label {
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.my-account__form-label span {
+	color: #f22735;
+}
+
+.my-account__form-input__wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.my-account__form-image {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	width: 18px;
+	height: 14px;
+}
+
+.my-account__form-input {
+	display: block;
+	padding-left: 15px;
+	width: 100%;
+	height: 38px;
+	margin-top: 10px;
+	border: 2px solid #f22735;
+    transition: .3s ease;
+}
+
+.my-account__form-input:focus {
+    border: 2px solid #000;
+}
+
+.my-account__form-input:first-child {
+    padding-right: 40px;
+}
+
+.my-account__form-label + .my-account__form-label {
+	display: block;
+	margin-top: 30px;
+}
+
+.my-account__form-span {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.my-accoutn__form-wrapper {
+	margin-top: 30px;
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.my-account__button {
+	margin-top: 30px;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 12px;
+	color: #fff;
+	width: 100%;
+	background-color: #f22735;
+	padding: 13px 0;
+}
+
+.my-account__button:hover {
+	background-color: #000;
+}
+
+.my-account__link {
+	margin-top: 30px;
+	display: block;
+	color: #f22735;
+	font-size: 14px;
+}
+
+.my-account__link:hover {
+	color: #000;
+}
+
+.my-account__form {
+	max-width: 450px;
+	margin: 0 auto;
+	padding-top: 70px;
+}

@@ -1,0 +1,350 @@
+.product-card {
+    margin-top: 60px;
+}
+
+.product-card__image {
+    position: relative;
+}
+
+.product-card__sale {
+    padding: 7px 11px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 12px;
+    background: #f22735;
+}
+
+.product-card__wrapper {
+    display: flex;
+    gap: 43px;
+}
+
+.product-card__name {
+    color: #000;
+    font-size: 30px;
+}
+
+.product-card__raitings {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.product-card__span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product-card__raiting-wrapper {
+    margin: 17px 0 15px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.product-card__price {
+    color: #000;
+    font-size: 20px;
+}
+
+.product-card__price:nth-child(2) {
+    color: #727174;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.product-card__price-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-card__article {
+    margin-top: 20px;
+    display: block;
+    color: #727174;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product-card__text {
+    margin-top: 20px;
+    width: 587px;
+    font-weight: 400;
+}
+
+.product-card__text + .product-card__text {
+    margin-top: 40px;
+}
+
+.product-card__purchase {
+    margin: 40px 0 60px;
+    display: flex;
+    gap: 10px;
+}
+
+.product-card__count {
+    padding: 12px 22px;
+    border: 2px solid #f22735;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card__count-minus,
+.product-card__count-plus {
+    color: #707070;
+    font-size: 25px;
+    font-family: var(--third-family);
+}
+
+.product-card__count-value {
+    margin: 0 20px;
+    width: 11px;
+    height: 30px;
+
+    color: #707070;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.product-card__button {
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #f22735;
+}
+
+.product-card__button:hover {
+    background-color: #000;
+}
+
+.product-card__payments-images {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.product-card__payments {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.product-card__info {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.product-card__info-button {
+    position: relative;
+    font-family: var(--font-family);
+    width: 75px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.product-card__info-button:nth-child(2) {
+    margin-left: 126px;
+    margin-right: 115px;
+}
+
+.product-card__info-button:last-child {
+    width: 160px;
+}
+
+.product-card__info-button-active::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    background-color: #f22735;
+}
+
+.product-card__info-buttons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card__info-text {
+    font-weight: 400;
+}
+
+.product-card__info-text + .product-card__info-text {
+    margin-top: 25px;
+}
+
+.product-card__title {
+    position: relative;
+    width: 282px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #000;
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.product-card__title::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    background-color: #f22735;
+}
+
+.product-card__review-top__text {
+    color: #000;
+}
+
+.product-card__review-top__span {
+    margin-top: 20px;
+    display: block;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product-card__review-top__span span {
+    color: #f22735;
+}
+
+.product-card__review-top {
+    display: flex;
+    align-items: start;
+    gap: 205px;
+}
+
+.product-card__testimonial-top__name span {
+    margin-left: 11px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product-card__testimonial-top {
+    display: flex;
+    gap: 175px;
+    align-items: center;
+}
+
+.product-card__testimonial-text {
+    margin-top: 31px;
+    width: 478px;
+    color: #000;
+    font-weight: 400;
+}
+
+.product-card__testimonial {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+    align-items: start;
+}
+
+.product-card__rate-text {
+    color: #000;
+}
+
+.product-card__rate {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.product-card__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.product-card__form {
+    width: 606px;
+}
+
+.product-card__review-top__wrapper {
+    margin-bottom: 30px;
+}
+
+.product-card__form-textarea {
+    padding-top: 14px;
+    padding-left: 14px;
+    width: 100%;
+    height: 170px;
+    border: 2px solid rgba(242, 39, 53, 0.5);
+    transition: all .3s ease;
+    resize: none;
+}
+
+.product-card__form-textarea::placeholder {
+    color: #727174;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+
+.product-card__form-input {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    width: 291px;
+    border: 2px solid rgba(242, 39, 53, 0.5);
+    transition: all .3s ease;
+}
+
+.product-card__form-input:focus,
+.product-card__form-textarea:focus {
+    border: 2px solid #f22735;
+}
+
+.product-card__form-input::placeholder {
+    color: #727174;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+
+.product-card__form-input__wrapper {
+    margin: 26px 0 34px;
+    display: flex;
+    gap: 21px;
+}
+
+.product-card__form-wrapper span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product-card__form-wrapper {
+    margin-bottom: 31px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.product-card__form-button {
+    padding: 13px 22px;
+    background-color: #f22735;
+    color: #fff;
+    font-size: 12px;
+    font-family: var(--second-family);
+}
+
+.product-card__form-button:hover {
+    background-color: #000;
+}

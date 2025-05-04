@@ -1,0 +1,36 @@
+body {
+    font-family: var(--font-family);
+    color: #504e4a;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.5;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.link {
+    color: #fff;
+    background-color: #f22735;
+}
+
+.link:hover {
+    background-color: #000;
+}
+
+.section-title {
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section-subtitle {
+    margin-top: 10px;
+    text-align: center;
+}

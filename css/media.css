@@ -1,0 +1,552 @@
+@media all and (max-width: 1330px) {
+    img {
+        max-width: 100%;
+    }
+
+    .welcome__wrapper {
+        flex-direction: column;
+    }
+
+    .reviews__list {
+        justify-content: center;
+    }
+
+    .releases__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .feedback__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .feedback-form {
+        margin-top: 45px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .products__list {
+        gap: 70px;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .models__wrapper {
+        gap: 38px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .testimonial-right {
+        padding: 25px;
+    }
+
+    .testimonial-right__text {
+        width: 100%;
+    }
+
+    .testimonial-right__text:last-child {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .footer__wrapper {
+        gap: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-info__wrapper {
+        margin-top: 22px;
+    }
+
+    .basket__footer-button:last-child {
+        margin-top: 25px;
+    }
+}
+
+@media all and (max-width: 1061px) {
+    .progress-list,
+    .team__list {
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .team__post {
+        margin: 10px 0;
+    }
+
+    .team__name {
+        margin-top: 15px;
+    }
+
+    .progress-item__title {
+        margin: 15px 0;
+    }
+
+    .progress {
+        padding: 90px 0;
+    }
+
+    .releases {
+        padding-bottom: 90px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .testimonial-left__text {
+        width: 100%;
+    }
+
+    .populars__list {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .populars__title {
+        text-align: center;
+    }
+
+    .populars {
+        background: #000;
+    }
+
+    .offer__wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 910px) {
+    .testimonial-right__text {
+        margin-top: 10px;
+    }
+
+    .testimonial-right__user {
+        margin-bottom: 15px;
+    }
+
+    .testimonial-left {
+        padding: 190px 0px 160px 40px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body {
+        line-height: 1.3;
+    }
+
+    .welcome {
+        padding: 60px 0;
+    }
+
+    .welcome-image {
+        margin-bottom: 35px;
+    }
+
+    .testimonial-right__text {
+        margin-top: 20px;
+    }
+
+    .offer-info__sale {
+        font-size: 180px;
+    }
+
+    .offer-content__text {
+        margin: 20px 0;
+    }
+
+    .offer__wrapper {
+        padding: 85px 0;
+    }
+
+    .footer-contacts__wrapper {
+        margin-top: 35px;
+    }
+
+    .footer-contacts__wrapper {
+        gap: 16px;
+    }
+
+    .footer__wrapper {
+        padding: 75px 0px 50px;
+    }
+
+    .copyright {
+        margin: 20px 0;
+    }
+
+    .models__wrapper,
+    .products__list,
+    .reviews__list,
+    .team__list {
+        margin-top: 35px;
+    }
+
+    .products__list {
+        gap: 45px;
+    }
+
+    .offer,
+    .populars {
+        margin-top: 85px;
+    }
+
+    .reviews {
+        padding-top: 85px;
+    }
+
+    .products,
+    .models {
+        padding-top: 60px;
+    }
+
+    .populars__list {
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    .welcome--background__about,
+    .welcome--background__contacts,
+    .welcome--background__my-account,
+    .welcome--background__cart {
+        min-height: auto;
+    }
+
+    .welcome--block__text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .welcome--block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .welcome--block__title {
+        font-size: 41px;
+    }
+
+    .feedback__wrapper {
+        gap: 25px;
+    }
+
+    .feedback__wrapper-title {
+        margin-bottom: 15px;
+    }
+
+    .feedback-form__label-input, .feedback-form__textarea {
+        width: 100%;
+    }
+
+    .my-account__link,
+    .my-account__button {
+        margin-top: 20px;
+    }
+
+    .basket__footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    thead th {
+        padding: 17px;
+    }
+
+    .basket {
+        padding-top: 50px;
+    }
+
+    thead {
+        display: none;
+    }
+
+    .basket__table td {
+        padding-left: 40%;
+        display: block;
+        border: none;
+    }
+
+    .basket__table td:nth-child(odd) {
+        background-color: #939393;
+    }
+
+    .basket__table td::before {
+        content: attr(data-label);
+        position: absolute;
+        color: #000;
+        left: 6%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .footer-info__nav {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer-info__wrapper {
+        margin-top: 35px;
+    }
+
+    .footer__title {
+        margin-bottom: 12px;
+    }
+
+    .welcome-content__title,
+    .footer-info__text {
+        width: 100%;
+    }
+
+    .releases-content__text {
+        width: 100%;
+    }
+
+    .team__title::after {
+        display: none;
+    }
+
+    .team__title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .testimonial__wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .testimonial-left,
+    .testimonial-right {
+        width: 100%;
+    }
+
+    .testimonial-left {
+        padding: 100px 0px 100px 20px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .basket-checkout {
+        padding: 35px 30px 35px 30px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 520px) {
+    .header-list,
+    .header__wrapper {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__wrapper {
+        padding: 30px 0;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .offer-info__sale {
+        font-size: 140px;
+    }
+
+    .offer-content__title {
+        font-size: 32px;
+    }
+
+    .offer-content__text {
+        margin: 10px 0;
+    }
+
+    .welcome-content__title {
+        font-size: 40px;
+    }
+
+    .welcome-content__text {
+        margin: 20px 0;
+    }
+
+    .testimonial-right__text {
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .section-title {
+        font-size: 35px;
+    }
+
+    .offer-content__text,
+    .reviews__item,
+    .reviews__text,
+    .footer-contacts__text {
+        width: 100%;
+    }
+
+    .reviews__text {
+        margin: 8px 0;
+    }
+
+    .reviews {
+        padding-top: 60px;
+    }
+
+    .models__wrapper, .products__list, .reviews__list, .team__list {
+        margin-top: 25px;
+        gap: 25px;
+    }
+
+    .offer, .populars {
+        margin-top: 60px;
+    }
+
+    .footer-contacts__links-wrapper,
+    .footer-contacts__details-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-contacts__details:last-child {
+        gap: 20px;
+    }
+
+    .footer-contacts__details-wrapper {
+        gap: 14px;
+    }
+
+    .footer-contacts__links-wrapper {
+        gap: 20px;
+    }
+
+    .welcome,
+    .progress {
+        padding: 45px 0;
+    }
+
+    .welcome-image {
+        margin-bottom: 50px;
+    }
+
+    .releases-content__title {
+        margin-bottom: 10px;
+    }
+
+    .releases-content__text + .releases-content__text {
+        margin-top: 0;
+    }
+
+    .releases-content__text {
+        margin-bottom: 0;
+    }
+
+    .releases-content__text:nth-child(3) {
+        margin: 15px 0;
+    }
+
+    .releases-content__link {
+        padding: 15px 30px 15px 27px;
+    }
+
+    .team__title {
+        font-size: 35px;
+    }
+
+    .feedback-form {
+        margin-top: 25px;
+    }
+
+    .my-account__form {
+        padding-top: 50px;
+    }
+
+    .basket__footer-button {
+        padding: 17px 22px 19px 21px;
+    }
+
+    .basket__table td {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .basket__table td::before {
+        position: static;
+        display: block;
+    }
+
+    .basket__footer {
+        margin-top: 25px;
+    }
+
+    .welcome--block__title-cart {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .offer-info__sale {
+        font-size: 120px;
+    }
+
+    .releases {
+        padding-bottom: 60px;
+    }
+
+    .basket__footer-button:last-child {
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .welcome-content__title {
+        font-size: 33px;
+    }
+
+    .testimonial-right__user {
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .models__wrapper, .products__list, .reviews__list, .team__list {
+        margin-top: 15px;
+    }
+
+    .testimonial-left__text {
+        margin: 15px 0;
+    }
+
+    .team__title {
+        font-size: 32px;
+    }
+
+    .releases-content__link {
+        padding: 12px 24px 12px 24px;
+    }
+
+    .basket__footer-button {
+        padding: 14px 19px 16px 18px;
+    }
+
+    .welcome--block__title-cart {
+        font-size: 38px;
+    }
+}

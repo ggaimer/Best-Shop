@@ -1,0 +1,41 @@
+.offer {
+    margin-top: 120px;
+    line-height: normal;
+}
+
+.offer-info__sale {
+    color: #fff;
+    font-size: 223px;
+    font-weight: 900;
+}
+
+.offer-info__text {
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.offer-content__title {
+    color: #fff;
+}
+
+.offer-content__text {
+    margin: 30px 0;
+    width: 420px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.offer-content__link {
+    padding: 18px 27px 20px 25px;
+    display: inline-block;
+}
+
+.offer__wrapper {
+    padding: 95px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    background: url("../../images/background/offer-bg.jpg") no-repeat center/cover;
+}

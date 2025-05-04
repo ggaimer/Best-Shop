@@ -1,0 +1,12 @@
+/* 
+    helvetica-neue:
+    400
+    500
+    600
+*/
+
+@font-face {
+	font-family: 'SF Pro';
+	src: url('../fonts/SFPRODISPLAYBOLD.OTF');
+	font-weight: 700;
+}   

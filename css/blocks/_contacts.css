@@ -1,0 +1,163 @@
+.welcome--background__contacts {
+    padding: 211px 0 213px;
+    background: url("../../images/background/welcome-contacts-bg.jpg") no-repeat center/cover;
+    min-height: 554px;
+}
+
+.welcome--block__title-contacts {
+    width: 288px;
+}
+
+
+/* progress */
+
+.progress-item__text-address {
+    color: #000;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.progress-item__text {
+    color: #000;
+}
+
+.progress-item__link {
+    display: block;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+
+.progress-item__link:hover {
+    color: var(--color-link-hover);
+}
+
+
+/* feedback */
+
+.feedback__wrapper-title {
+    margin-bottom: 34px;
+    color: #000;
+    font-size: 25px;
+    line-height: 1;
+}
+
+.feedback__wrapper-subtitle {
+    color: #000;
+    font-weight: 400;
+}
+
+.feedback-form {
+    margin-top: 70px;
+}
+
+.feedback-form__label {
+    display: flex;
+    flex-direction: column;
+
+    color: #000;
+    font-size: 18px;
+}
+
+.feedback-form__label-name {
+    position: relative;
+}
+
+.feedback-form__label-name::after {
+    position: absolute;
+    content: '*';
+    left: 110px;
+    color: #f22735;
+}
+
+.feedback-form__label-email {
+    position: relative;
+}
+
+.feedback-form__label-email::after {
+    position: absolute;
+    content: '*';
+    content: '*';
+    left: 190px;
+    color: #f22735;
+}
+
+.feedback-form__label-topic {
+    position: relative;
+}
+
+.feedback-form__label-topic::after {
+    position: absolute;
+    content: '*';
+    left: 55px;
+    color: #f22735;
+}
+
+.feedback-form__textarea {
+    width: 631px;
+    height: 117px;
+    resize: none;
+}
+
+.feedback-form__label-textarea {
+    position: relative;
+}
+
+.feedback-form__label-textarea::after {
+    position: absolute;
+    content: '*';
+    content: '*';
+    left: 140px;
+    color: #f22735;
+}
+
+.feedback-form__label-input,
+.feedback-form__textarea {
+    margin-top: 8px;
+    padding-left: 15px;
+}
+
+.feedback-form__label-input {
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #f22735;
+}
+
+.feedback-form__label-input:focus {
+    border: 1px solid #f22735;
+}
+
+.feedback-form__label + .feedback-form__label {
+    margin-top: 31px;
+}
+
+.feedback-form__textarea {
+    padding-top: 8px;
+    border-radius: 2px;
+    border: 1px solid #f22735;
+}
+
+.feedback-form__label-input:focus,
+.feedback-form__textarea:focus {
+    border: 1px solid #000;
+}
+
+.feedback-form__button {
+    margin-top: 24px;
+    padding: 13px 29px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #f22735;
+    font-family: var(--second-family);
+}
+
+.feedback-form__button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.feedback__wrapper {
+    display: flex;
+    gap: 41px;
+}
